@@ -11,7 +11,7 @@ const Navbar = () => {
           <div className="hamburger"></div>
           <ul class="navbar__menu">
             <li class="navbar__item">
-              <a href="#skills" class="navbar__links">
+              <a href="#about" class="navbar__links">
                 Accueil
                 <svg
                   className="nav-svg"

@@ -4,8 +4,8 @@ import sethy from "../assets/sethy-pic.JPG";
 export default function Skills() {
   return (
     <section className="skills" id="skills">
-      <h2>MES COMPÉTENCES</h2>
       <div className="skill-container">
+        <h2>MES COMPÉTENCES</h2>
         <img src={sethy} alt="profile-pic" className="sethy" />
         <ul className="skillset">
           <li>Html</li>
@@ -23,7 +23,16 @@ export default function Skills() {
         </ul>
         <div className="pitch">
           <h3>J'aime apprendre et créer des trucs</h3>
-          <p></p>
+          <p>
+            J'ai commencer le développement web en 2021, les cours de la fac ont
+            piqués mon intérêt pour ce secteur qui jusque là ne m'interaissait
+            pas. J'ai donc appris la base du développement front-end et pendant
+            mon apprentissage j'ai particulièrement apprécié le fait de créer et
+            de voir le résultat immédiatement. Je suis encore en apprentissage
+            et aujourd'hui mon but est de consolider et développer mes
+            connaissances tout en apprenant à relier de manière plus efficace le
+            back-end et le front-end.
+          </p>
         </div>
       </div>
     </section>
